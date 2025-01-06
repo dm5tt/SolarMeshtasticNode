@@ -31,7 +31,7 @@ Due to strict legislation, it is not planned to offer ready-made circuit boards 
 
 # Meshtastic, ESP32 and Power Saving. How?
 
-Warning 1: By enabling "Power Saving" you will loose *all* telemetry (Sensors, Battery Voltages, etc.)!
+Warning 1: By enabling "Power Saving" you will loose *all* regular telemetry (Sensors, Battery Voltages, etc.)! The battery voltage can be polled manually.
 
 Warning 2: You also will not be able to configure it by serial port anymore! You have a short period after power cycling it. Use the "meshtastic" Python script as it waits for a while.
 
