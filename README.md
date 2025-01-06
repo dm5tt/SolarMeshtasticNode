@@ -14,6 +14,7 @@ Features of this PCB
  - Two ADC signals for getting VLOAD and  VBUS voltage using voltage dividers
  - 3.7V LiPo either via 18650 block or JST-PH 2.0 connector
  - Low power LDO [HEERMICR HE9073A30MR](https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_HEERMICR-HE9073A30MR_C723792.pdf)
+ - Brown-out Reset IC ([Diodes Incorporated APX803L05-32SA-7](https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Diodes-Incorporated-APX803L05-32SA-7_C2067928.pdf)) at 3.2V which senses the voltage *before* the LDO 
 
 Combined with a solar panel this device can be placed in remote areas to cover a wide range.
 
@@ -53,7 +54,7 @@ Then configure is like a "Router".
 
 # Do I have to modify the Software and configuration?
 
-No. Only some smaller changes regarding the pin mapping is required.
+Only some smaller changes regarding the pin mapping is required.
 
 ```
 diff --git a/variants/heltec_esp32c3/variant.h b/variants/heltec_esp32c3/variant.h
