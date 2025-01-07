@@ -18,6 +18,8 @@ Features of this PCB
 
 Combined with a solar panel this device can be placed in remote areas to cover a wide range.
 
+With version 2.0.0 a Reset-IC was introduced - so manually enabling EN is not needed anymore.
+
 # Where can I get all the stuff?
 
 Heltec HT-CT62: Aliexpress
