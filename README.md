@@ -121,6 +121,8 @@ index 6fe5c3c6..8087aa08 100644
 
 [Evaluation, PCB v0.2 (CR123A)](./EVALUATION-v02.md)
 
+[Evaluation, PCB v2.0.0 (18650)](./EVALUATION-v200.md)
+
 # FAQ
 
 *The HT-CT62 uses a ESP32C3. Thats not Low Power!!!*
