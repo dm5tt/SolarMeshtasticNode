@@ -1,6 +1,6 @@
 # Evaluation of the v2.0.0 
 
-#![Meshtastic Node](./pictures/MeshtasticNode_BQ25185_v200.jpg "The DUT")
+![Meshtastic Node](./pictures/MeshtasticNode_BQ25185_v200.jpg "The DUT")
 
 ## Setup
 
