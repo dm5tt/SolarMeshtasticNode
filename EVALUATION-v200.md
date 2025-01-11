@@ -25,12 +25,12 @@ Other configurations are default.
 
 # Picture of the integrated PCB
 
-#![Meshtastic Node](./pictures/MeshtasticNode_BQ25185_v200_pcb.jpg "The PCB")
+![Meshtastic Node](./pictures/MeshtasticNode_BQ25185_v200_pcb.jpg "The PCB")
 
 
 # Picture of the entire device
 
-#![Meshtastic Node](./pictures/MeshtasticNode_BQ25185_v200_device.jpg "The PCB")
+![Meshtastic Node](./pictures/MeshtasticNode_BQ25185_v200_device.jpg "The PCB")
 
 # Power consumption (Grafana)
 
