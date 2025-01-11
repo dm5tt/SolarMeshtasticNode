@@ -18,7 +18,8 @@ Features of this PCB
 
 Combined with a solar panel this device can be placed in remote areas to cover a wide range.
 
-With version 2.0.0 a Reset-IC was introduced - so manually enabling EN is not needed anymore.
+If you want to use the Reset IC: do not bridge the "EN" pin headers. The signal of this IC is "weak" -  it can be overruled by a jumper without destroying the board.
+
 
 # Where can I get all the stuff?
 
