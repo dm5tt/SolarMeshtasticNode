@@ -36,9 +36,7 @@ Other settings are default.
 
 ![Meshtastic Node](./pictures/MeshtasticNode_BQ25185_v200_voltage.png "Voltage Plot")
 
-Analyzing the battery voltage and beacons during a low-sunlight scenario showed that there's a problem with the Reset IC: it's bouncing around the 3.2V. 
-
-As a workaround a 22uF capacitor was added directly next to the voltage monitor.
+Analyzing the battery voltage and beacons during a low-sunlight scenario showed that there's a problem with the Reset IC: it's bouncing around the 3.2V.  As a fix  a 22uF capacitor was added directly next to the  sensing pin of the IC.
 
 Testing continues.
 
