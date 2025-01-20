@@ -1,4 +1,4 @@
-# Test of the selfbuild Heltec HT-CT62 / TI BQ25185 based Meshtastic node
+# Evaluation of the v0.2
 
 ## Case
 

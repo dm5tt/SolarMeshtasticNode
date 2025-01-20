@@ -3060,7 +3060,7 @@
 		(uuid "63451d44-bb3b-469a-9163-6d7d00077270")
 	)
 	(junction
-		(at 142.24 208.28)
+		(at 142.24 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65157511-6c26-4364-bb52-a96ba6c996fc")
@@ -3100,6 +3100,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cac966af-2390-44f3-8964-7e26dd5d27c1")
+	)
+	(junction
+		(at 127 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea581da8-ab23-40a6-8e30-1e15fdf35ffe")
 	)
 	(junction
 		(at 147.32 39.37)
@@ -3359,7 +3365,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 208.28) (xy 142.24 208.28)
+			(xy 140.97 218.44) (xy 142.24 218.44)
 		)
 		(stroke
 			(width 0)
@@ -3759,7 +3765,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 204.47) (xy 128.27 204.47)
+			(xy 124.46 214.63) (xy 127 214.63)
 		)
 		(stroke
 			(width 0)
@@ -3839,6 +3845,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 198.12) (xy 127 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9281a279-9873-45d8-8600-5786be97345f")
+	)
+	(wire
+		(pts
 			(xy 218.44 96.52) (xy 228.6 96.52)
 		)
 		(stroke
@@ -3886,6 +3902,16 @@
 			(type default)
 		)
 		(uuid "9ea96089-9e75-4613-b843-b71439b146d4")
+	)
+	(wire
+		(pts
+			(xy 127 209.55) (xy 127 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a345c581-0d4c-42bf-8496-d0d163589695")
 	)
 	(wire
 		(pts
@@ -4009,7 +4035,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 191.77) (xy 142.24 195.58)
+			(xy 142.24 201.93) (xy 142.24 205.74)
 		)
 		(stroke
 			(width 0)
@@ -4049,7 +4075,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 208.28) (xy 144.78 208.28)
+			(xy 142.24 218.44) (xy 144.78 218.44)
 		)
 		(stroke
 			(width 0)
@@ -4309,7 +4335,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 212.09) (xy 128.27 212.09)
+			(xy 124.46 222.25) (xy 128.27 222.25)
 		)
 		(stroke
 			(width 0)
@@ -4329,7 +4355,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 203.2) (xy 142.24 208.28)
+			(xy 142.24 213.36) (xy 142.24 218.44)
 		)
 		(stroke
 			(width 0)
@@ -4396,6 +4422,16 @@
 			(type default)
 		)
 		(uuid "fec0f70a-9868-42b9-9ca2-5bf6a7aa439b")
+	)
+	(wire
+		(pts
+			(xy 127 214.63) (xy 128.27 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff979a48-1b28-47d8-88f3-7f9de5cc1356")
 	)
 	(rectangle
 		(start 101.6 12.7)
@@ -4543,7 +4579,7 @@
 	)
 	(rectangle
 		(start 107.95 184.15)
-		(end 166.37 222.25)
+		(end 166.37 236.22)
 		(stroke
 			(width 0.508)
 			(type dot)
@@ -4705,7 +4741,6 @@
 	)
 	(label "+3V3"
 		(at 285.75 99.06 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4716,7 +4751,6 @@
 	)
 	(label "+3V3"
 		(at 118.11 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4727,7 +4761,6 @@
 	)
 	(label "U_RX"
 		(at 228.6 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4738,7 +4771,6 @@
 	)
 	(label "VLIPO"
 		(at 92.71 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4749,7 +4781,6 @@
 	)
 	(label "I2C_SCL"
 		(at 120.65 171.45 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4760,7 +4791,6 @@
 	)
 	(label "ADC_VBUS"
 		(at 180.34 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4771,7 +4801,6 @@
 	)
 	(label "GND"
 		(at 69.85 170.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4782,7 +4811,6 @@
 	)
 	(label "VLOAD"
 		(at 40.64 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4793,7 +4821,6 @@
 	)
 	(label "LED_STAT1"
 		(at 31.75 204.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4804,7 +4831,6 @@
 	)
 	(label "ESP32_BOOTLOADER_MODE_1"
 		(at 220.98 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4815,7 +4841,6 @@
 	)
 	(label "GND"
 		(at 115.57 171.45 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4826,7 +4851,6 @@
 	)
 	(label "VLIPO"
 		(at 16.51 168.91 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4836,8 +4860,7 @@
 		(uuid "3f434871-14c9-4e0a-a4a9-824216f334d7")
 	)
 	(label "+3V3"
-		(at 142.24 191.77 90)
-		(fields_autoplaced yes)
+		(at 142.24 201.93 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4848,7 +4871,6 @@
 	)
 	(label "VLIPO"
 		(at 30.48 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4859,7 +4881,6 @@
 	)
 	(label "+3V3"
 		(at 81.28 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4870,7 +4891,6 @@
 	)
 	(label "VLOAD"
 		(at 275.59 31.75 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4881,7 +4901,6 @@
 	)
 	(label "VBUS"
 		(at 118.11 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4891,8 +4910,7 @@
 		(uuid "49f7a798-1525-42c5-836d-574d7ad0694c")
 	)
 	(label "VLOAD"
-		(at 124.46 204.47 180)
-		(fields_autoplaced yes)
+		(at 124.46 214.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4903,7 +4921,6 @@
 	)
 	(label "GND"
 		(at 115.57 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4914,7 +4931,6 @@
 	)
 	(label "I2C_SCL"
 		(at 228.6 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4925,7 +4941,6 @@
 	)
 	(label "U_TX"
 		(at 228.6 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4936,7 +4951,6 @@
 	)
 	(label "GND"
 		(at 115.57 85.09 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4947,7 +4961,6 @@
 	)
 	(label "I2C_SCL"
 		(at 120.65 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4958,7 +4971,6 @@
 	)
 	(label "+3V3"
 		(at 118.11 171.45 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4968,8 +4980,7 @@
 		(uuid "73855751-b59e-480d-b96e-6f2ade9dc4bd")
 	)
 	(label "ESP32_ENABLE"
-		(at 144.78 208.28 0)
-		(fields_autoplaced yes)
+		(at 144.78 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4980,7 +4991,6 @@
 	)
 	(label "ADC_LIPO"
 		(at 290.83 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4991,7 +5001,6 @@
 	)
 	(label "I2C_SDA"
 		(at 151.13 140.97 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5002,7 +5011,6 @@
 	)
 	(label "ESP32_ENABLE"
 		(at 270.51 102.87 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5013,7 +5021,6 @@
 	)
 	(label "+3V3"
 		(at 83.82 123.19 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5024,7 +5031,6 @@
 	)
 	(label "I2C_SCL"
 		(at 143.51 140.97 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5035,7 +5041,6 @@
 	)
 	(label "+3V3"
 		(at 143.51 156.21 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5046,7 +5051,6 @@
 	)
 	(label "+3V3"
 		(at 151.13 156.21 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5057,7 +5061,6 @@
 	)
 	(label "LED_STAT2"
 		(at 41.91 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5068,7 +5071,6 @@
 	)
 	(label "+3V3"
 		(at 200.66 68.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5079,7 +5081,6 @@
 	)
 	(label "U_TX"
 		(at 120.65 85.09 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5090,7 +5091,6 @@
 	)
 	(label "U_RX"
 		(at 123.19 85.09 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5101,7 +5101,6 @@
 	)
 	(label "ADC_VBUS"
 		(at 325.12 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5112,7 +5111,6 @@
 	)
 	(label "ADC_LIPO"
 		(at 180.34 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5123,7 +5121,6 @@
 	)
 	(label "+3V3"
 		(at 81.28 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5134,7 +5131,6 @@
 	)
 	(label "LED_STAT2"
 		(at 31.75 229.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5145,7 +5141,6 @@
 	)
 	(label "VBUS"
 		(at 312.42 31.75 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5156,7 +5151,6 @@
 	)
 	(label "I2C_SDA"
 		(at 123.19 144.78 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5167,7 +5161,6 @@
 	)
 	(label "VBUS"
 		(at 31.75 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5178,7 +5171,6 @@
 	)
 	(label "VBUS"
 		(at 19.05 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5189,7 +5181,6 @@
 	)
 	(label "LED_STAT1"
 		(at 41.91 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5200,7 +5191,6 @@
 	)
 	(label "ESP32_ENABLE"
 		(at 173.99 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5211,7 +5201,6 @@
 	)
 	(label "VLOAD"
 		(at 92.71 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5222,7 +5211,6 @@
 	)
 	(label "I2C_SDA"
 		(at 228.6 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5233,7 +5221,6 @@
 	)
 	(label "I2C_SDA"
 		(at 123.19 171.45 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5244,7 +5231,6 @@
 	)
 	(label "+3V3"
 		(at 81.28 170.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5255,7 +5241,6 @@
 	)
 	(label "VBUS"
 		(at 46.99 170.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5266,7 +5251,6 @@
 	)
 	(label "VLIPO"
 		(at 58.42 170.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5277,7 +5261,6 @@
 	)
 	(label "+3V3"
 		(at 267.97 99.06 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5288,7 +5271,6 @@
 	)
 	(label "ESP32_BOOTLOADER_MODE_1"
 		(at 288.29 99.06 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8377,7 +8359,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 199.39 0)
+		(at 142.24 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8386,7 +8368,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ebe0099-38eb-46fc-8d86-d5aee5ca2ae6")
 		(property "Reference" "R10"
-			(at 144.78 198.1199 0)
+			(at 144.78 208.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,7 +8377,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 144.78 200.6599 0)
+			(at 144.78 210.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8404,7 +8386,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 140.462 199.39 90)
+			(at 140.462 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8413,7 +8395,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 199.39 0)
+			(at 142.24 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8422,7 +8404,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 199.39 0)
+			(at 142.24 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8508,6 +8490,76 @@
 			(project "MeshtasticNode_BQ25185"
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "933e52bb-0e3f-45d5-9dfd-d3df8371575e")
+		(property "Reference" "C7"
+			(at 130.81 204.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 130.81 207.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 127.9652 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79fb72fe-5a65-40c2-8691-fabbb6579f16")
+		)
+		(pin "1"
+			(uuid "51b58cee-a722-4f55-99dd-8e3582a32209")
+		)
+		(instances
+			(project ""
+				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10379,7 +10431,7 @@
 	)
 	(symbol
 		(lib_id "own_symbols:APX803L05-32SA-7")
-		(at 130.81 201.93 0)
+		(at 130.81 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10387,7 +10439,7 @@
 		(dnp no)
 		(uuid "cffb0041-b045-4b17-a433-dc16092ed8f5")
 		(property "Reference" "U4"
-			(at 132.588 201.676 0)
+			(at 132.588 211.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10395,7 +10447,7 @@
 			)
 		)
 		(property "Value" "APX803L05-32SA-7"
-			(at 133.858 216.916 0)
+			(at 133.858 227.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,7 +10455,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SOT23-3"
-			(at 133.35 219.964 0)
+			(at 133.35 230.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10412,7 +10464,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Diodes-Incorporated-APX803L05-32SA-7_C2067928.pdf"
-			(at 136.398 215.646 0)
+			(at 136.398 225.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10421,7 +10473,7 @@
 			)
 		)
 		(property "Description" "35ms Active Low 1 SOT-23 Supervisor and Reset ICs ROHS"
-			(at 131.318 224.536 0)
+			(at 131.318 234.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10966,7 +11018,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 212.09 270)
+		(at 124.46 222.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10975,7 +11027,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcef85e9-d208-4a66-9893-01e693d26d6e")
 		(property "Reference" "#PWR03"
-			(at 118.11 212.09 0)
+			(at 118.11 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10984,7 +11036,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 212.0899 90)
+			(at 120.65 222.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10993,7 +11045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 212.09 0)
+			(at 124.46 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11002,7 +11054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 212.09 0)
+			(at 124.46 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11011,7 +11063,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 212.09 0)
+			(at 124.46 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11436,6 +11488,72 @@
 			(project "MeshtasticNode_BQ25185"
 				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
 					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 198.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e46581ae-68e7-4077-8b87-0d10a30d1d0d")
+		(property "Reference" "#PWR022"
+			(at 127 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c69a3ca3-cac6-431c-8332-ea48144ee303")
+		)
+		(instances
+			(project ""
+				(path "/256f162e-4f54-42b3-a315-b65231ce36a5"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
