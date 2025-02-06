@@ -30,7 +30,7 @@ Other settings are default.
 
 # Picture of the entire device
 
-![Meshtastic Node](./pictures/MeshtasticNode_BQ25185_v200_device.jpg "Entire System)
+![Meshtastic Node](./pictures/MeshtasticNode_BQ25185_v200_device.jpg "Entire System")
 
 # Power consumption (Grafana)
 
