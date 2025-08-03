@@ -20,7 +20,7 @@ Combined with a solar panel this device can be placed in remote areas to cover a
 
 *If you want to use the Reset IC*
 
-do not bridge the "EN" pin headers. The signal of this IC is "weak" -  it can be overruled by a jumper without destroying the board.
+Do not bridge the "EN" pin headers. The signal of this IC is "weak" -  it can be overruled by a jumper without destroying the board.
 
 
 # Where can I get all the stuff?
