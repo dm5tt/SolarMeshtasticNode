@@ -10,7 +10,7 @@ Features of this PCB
  - 3A maximum load
  - 1A maximum charge current
  - Pseudo-MPPT (VINDPM)
- - Power Path (= if the battery is fully charged and there's enough solar power the device is getting powered directly from solar)
+ - Power Path (= if the battery is fully charged and there's enough solar power the device is getting powered directly from solar. During sunrise and sunset it can mix the sources.)
  - Two ADC signals for getting VLOAD and  VBUS voltage using voltage dividers
  - 3.7V LiPo either via 18650 block or JST-PH 2.0 connector
  - Low power LDO [HEERMICR HE9073A30MR](https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_HEERMICR-HE9073A30MR_C723792.pdf)
@@ -18,7 +18,9 @@ Features of this PCB
 
 Combined with a solar panel this device can be placed in remote areas to cover a wide range.
 
-If you want to use the Reset IC: do not bridge the "EN" pin headers. The signal of this IC is "weak" -  it can be overruled by a jumper without destroying the board.
+*If you want to use the Reset IC*
+
+do not bridge the "EN" pin headers. The signal of this IC is "weak" -  it can be overruled by a jumper without destroying the board.
 
 
 # Where can I get all the stuff?
@@ -35,9 +37,15 @@ Due to strict legislation, it is not planned to offer ready-made circuit boards 
 
 # Meshtastic, ESP32 and Power Saving. How?
 
-Warning 1: By enabling "Power Saving" you will loose *all* regular telemetry (Sensors, Battery Voltages, etc.)! The battery voltage can be polled manually using the Python lib.
+*Warning 1* 
 
-Warning 2: You also will not be able to configure it by serial port anymore! You have a short period after power cycling it. Use the "meshtastic" Python script as it waits for a while.
+By enabling "Power Saving" you will loose *all* regular telemetry (Sensors, Battery Voltages, etc.)! The battery voltage can be polled manually using the Python lib.
+
+I reported this a bug but it was rejected.
+
+*Warning 2* 
+
+You also will not be able to configure it by serial port anymore! You have a short period after power cycling it. Use the "meshtastic" Python script as it waits for a while.
 
 ### Router Role
 
@@ -151,7 +159,7 @@ With a 3.3V LDO the device will switch off around ~3.5V - with 3.0V LDO it can s
 
 # Warning
 
-LED circuit for STAT1 and STAT2 is not yet tested. The TI BQ25185 uses 1.8V for the status pins - so the LEDs must be switched via a transistor against the 3.3V supply voltage.
+LED circuit for STAT1 and STAT2 aren't tested. The TI BQ25185 uses 1.8V for the status pins so the LEDs must be switched via a transistor against the 3.3V supply voltage.
 
 # License
 
