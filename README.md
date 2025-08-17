@@ -125,6 +125,9 @@ index 6fe5c3c6..8087aa08 100644
 +board_build.f_cpu = 80000000L
 ```
 
+I'm keeping a more or less outdated branch von the Meshtastic firmware on `git@github.com:dm5tt/meshtastic-firmware.git` in the branch `solarmeshtasticnode`. If you want a fresher version you must rebase it yourself.
+
+
 # Evaluation
 
 [Evaluation, PCB v0.2 (CR123A)](./EVALUATION-v02.md)
