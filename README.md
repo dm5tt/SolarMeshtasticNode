@@ -77,7 +77,7 @@ I'm keeping a more or less outdated branch von the Meshtastic firmware on `git@g
 
 *The HT-CT62 uses a ESP32C3. Thats not Low Power!!!*
 
-Meshtastic  supports the "Power Saving" mode on the ESP32 where the entire   device stays  in the light sleep mode until it gets a interrupt signal from the LoRa modem. In that phase CPU will consume around ~800uA while sleeping. Including LoRa RX that's a idle draw around 5-6mA.
+Meshtastic  supports the "Power Saving" mode on the ESP32 where the entire   device stays  in the light sleep mode until it gets a interrupt signal from the LoRa modem. In that phase CPU will consume around ~800uA while sleeping. Including LoRa RX that's a idle current draw around is 5-6mA.
 
 Warning, again: switching on BLE or even Wifi will make the ESP32 burn a crazy amount of energy. 
 
