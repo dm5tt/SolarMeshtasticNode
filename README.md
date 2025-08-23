@@ -95,7 +95,7 @@ Yes. It's very inefficient if it's running with the power path enabled (= direct
 
 It maybe cause unneccesary heat during the winter time where small 18V solar panels would be a great benefit. But for 6V panels it's a within acceptable ranges.
 
-There are other variants (TI BQ25620/BQ25622) that are using a Buck converter.
+I'm planing to build a new generation of the SolarMeshtasticNode with the upcoming [TI BQ25630](https://www.ti.com/lit/ds/symlink/bq25630.pdf?ts=1755932677893). It has an integrated ADC (which allows us to get rid of all power dividers) and also has a  very efficient DC DC buck architecture. Price wise it will be around $2 which is still very acceptable.
 
 *Why are you using a 3.0V and not a 3.3V LDO?*
 
