@@ -81,9 +81,9 @@ Meshtastic  supports the "Power Saving" mode on the ESP32 where the entire   dev
 
 Warning, again: switching on BLE or even Wifi will make the ESP32 burn a crazy amount of energy. 
 
-Still far away from the RAK4631 with a Nordic microcontroller. But who cares? During the day you will have a positive power budget so the entire devices runs on solar energy and recharges its battery even with small cells.
-
 For sunny regions (Portugal, Spain, etc.) a 6V panel is enough. For central Europe (like Germany) a 12V or higher solar panel is recommended for surviving the winter.
+
+Still far away from the RAK4631 with a Nordic microcontroller. But who cares? During the day you will have a positive power budget so the entire devices runs on solar energy and recharges its battery even with small cells.
 
 *It's not really that cheap either!*
 
