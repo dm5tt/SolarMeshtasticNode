@@ -109,4 +109,4 @@ LED circuit for STAT1 and STAT2 aren't tested. The TI BQ25185 uses 1.8V for the 
 
 # License
 
-GPL v3
+CERN OHL v2 – Strongly Reciprocal (S)
