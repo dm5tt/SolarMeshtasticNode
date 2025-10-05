@@ -1,3 +1,6 @@
+Warning: this thing will get a big overhaul as soon as the new TI BQ25630 charging controller will be released. It will then get a few design features to work as a power delivery platform for STM32/Nordic/ESP32 micrococontrollers. 
+
+
 ![MeshtasticRouterNode](pictures/MeshtasticNode_BQ25185.jpg)
 
 ## What is this thing?
