@@ -1,4 +1,12 @@
-**Warning:** this thing will get a big overhaul as soon as the new TI BQ25630 charging controller will be released. It will then get a few design features to act as a solar power delivery platform for STM32/Nordic/ESP32/etc. micrococontrollers. 
+**Warning:** 
+
+This thing will get a big overhaul (better access to bus interfaces, etc.) as soon as the new TI BQ25630 charging controller will be released end of the year.  
+
+The design will be much less complex  as we can get all power relevant data (solar/battery voltage, currents) by just querying the charger IC via I2C. 
+
+Also the BOM will be much compacter as no voltage dividers will be need.
+
+---
 
 
 ![MeshtasticRouterNode](pictures/MeshtasticNode_BQ25185.jpg)
