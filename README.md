@@ -1,6 +1,6 @@
 **Warning:** 
 
-This thing will get a big overhaul (better access to bus interfaces, etc.) as soon as the new TI BQ25630 charging controller will be released end of the year.  
+This thing will get a big overhaul (better access to bus interfaces, improved outlines, etc.) as soon as the new TI BQ25630 charging controller will be released end of the year.  
 
 The design will be much less complex  as we can get all power relevant data (solar/battery voltage, currents) by just querying the charger IC via I2C. 
 
